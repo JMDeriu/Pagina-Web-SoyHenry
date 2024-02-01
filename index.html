@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Futbol Argento</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
-             <h1>Mi Primera Pagina WEB</h1>
-             <h2>Futbol Argentino</h2>
+        <div class="header">
+
+             <h1 class="titles">Mi Primera Pagina WEB</h1>
+             <h2 class="titles">Futbol Argentino</h2>
+        </div>
     </header>
 
     <main>
         <article>   
-          <h2>Historia Del Futbol Argentino</h2>
+            <div class="introduccion">
+          <h2 class="titles">Historia Del Futbol Argentino</h2>
               <p>La Primera División de Argentina reconoce dos etapas diferenciadas, conocidas respectivamente como era amateur o amateurismo y era profesional o profesionalismo. La primera etapa transcurrió desde 1891 a 1934, entre la fundación de la primera liga, llamada Argentine Association Football League, hasta la fusión de la Asociación Argentina de Football (Amateurs y Profesionales), nombre que había tomado la entidad oficial afiliada a FIFA, con la disidente Liga Argentina de Football, que ya había organizado previamente cuatro campeonatos, que dieron origen a la actividad profesional regularizada, a partir de 1931 en adelante.
 
                  De esa forma, los últimos cuatro torneos de la era amateur se superpusieron con los cuatro primeros del profesionalismo, en lo que fue una continuidad histórica, marcada por el blanqueo de la profesionalidad que exigía la práctica del deporte en su más alto nivel. No obstante ello, la Asociación reconoce una desigualdad de carácter organizativo entre las dos etapas, por lo que las diferencia en cuanto a su significación histórica y no las unifica, aunque reconoce la validez de los logros de los clubes en la etapa amateur.
               </p>
+            </div>
               <img src="./arriba.jpeg" alt="">
         </article>
         <hr>
         <article>
-            <h2>Actualidad</h2>
-               <p>
+            
+            <h2 class="actualidad">Actualidad</h2>
+               <p class="texto">
                 En el Futbol hay 5 Equipos considerados "Grandes":
 
                </p>
-               <table border="1px">
-                    <tr>
+               <table border="1px" class="tabla">
+                    <tr id="filaprincipal">
+                        
                         <th>
                             <p>Equipo</p>
                         </th>
@@ -159,7 +168,7 @@
                 </table>
                 <br>
                 <br>
-               <img src="./inicio.jpg" alt="" height="500px">
+               
         </article>
         <hr>
 
@@ -167,7 +176,11 @@
     </main>
 
     <footer>
+    
+        <button>
         <a href="./Informacion.html">Mas Informacion</a>
+        </button>
+    
 
     </footer>
 </body>
